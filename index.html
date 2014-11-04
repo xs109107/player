@@ -1,6 +1,6 @@
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>先锋云点播接口</title>
+<title>先锋云播借口</title>
 <style type="text/css"><!--
 html,body{height:100%; margin:0; padding:0; overflow:hidden;text-align:center;background:#000;}
 .btn{font-size: 1px;font-weight: bold;text-align:center}
@@ -19,9 +19,19 @@ var url=window.location.href;
 var arr =url.split("#");//alert(url);alert(arr[1]);alert(arr[2]);
 	var flashvars={f:arr[1],a:"",s:arr[2],c:"0",e:"0",p:"1",h:"1",};
 		var params={bgcolor:"#FFF",allowFullScreen:true,allowScriptAccess:"always"};
-		CKobject.embedSWF("player.swf","player","ckplayer_a1","100%","100%",flashvars,params);
+		CKobject.embedSWF
+
+("player.swf","player","ckplayer_a1","100%","100%",flashvars,params);
 	var video=[arr[3]+"->video/mp4"];
 	var support=["iPad","iPhone","ios","android+false","msie10+false"];
 	CKobject.embedHTML5("video","ckplayer_a1","100%","100%",video,flashvars,support);
-</script><div style="display:none">
+</script><div style="display:none"><script type="text/javascript">var cnzz_protocol = 
+
+(("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape
+
+("%3Cspan id='cnzz_stat_icon_1253342568'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + 
+
+"s22.cnzz.com/z_stat.php%3Fid%3D1253342568%26online%3D1%26show%3Dline' 
+
+type='text/javascript'%3E%3C/script%3E"));</script></div><div style="display:none">
 </div></body></html>
