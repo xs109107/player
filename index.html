@@ -1,6 +1,6 @@
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>先锋云点播借口</title>
+<title>先锋云点播接口</title>
 <style type="text/css"><!--
 html,body{height:100%; margin:0; padding:0; overflow:hidden;text-align:center;background:#000;}
 .btn{font-size: 1px;font-weight: bold;text-align:center}
@@ -16,11 +16,7 @@ html,body{height:100%; margin:0; padding:0; overflow:hidden;text-align:center;ba
 <script type="text/javascript" src="player.js" charset="utf-8"></script>
 <script type="text/javascript">
 var url=window.location.href;
-<<<<<<< HEAD
 var arr =url.split("#");//alert(url);alert(arr[1]);alert(arr[2]);
-=======
-var arr =url.split("#");
->>>>>>> 7366e5e69a5a72c775c884bc631f212614993bb7
 	var flashvars={f:arr[1],a:"",s:arr[2],c:"0",e:"0",p:"1",h:"1",};
 		var params={bgcolor:"#FFF",allowFullScreen:true,allowScriptAccess:"always"};
 		CKobject.embedSWF("player.swf","player","ckplayer_a1","100%","100%",flashvars,params);
